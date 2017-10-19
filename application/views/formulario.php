@@ -22,18 +22,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <?php echo form_open("Welcome/validar")?>
 
-    <form class="form">
+    
       <input type="text" placeholder="primer nombre" class="textbox" name="nombre" />
       <input type="text" placeholder="Apellido" class="textbox" name="apellido1" />
       <input type="text" placeholder="Direccion de Email" class="textbox" name="correo" />
       <input type="submit" value="Next" class="button"  />
-    </form>
+
+   <?php echo form_close() ?>
+
   </div>
 </div>
 
 <a href="http://dribbble.com/shots/1265587-Registration-Template-PSD?list=everyone" target="_blank">Design by: Asif Aleem</a>
 
-<?php echo form_close() ?>
 
 </body>
 </html>
